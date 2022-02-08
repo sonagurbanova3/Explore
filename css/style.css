@@ -319,7 +319,7 @@ a {
     margin-top: 70px;
   }
   .header__actions .btn {
-    font-size: 40px;
+    font-size: 20px;
   }
   .header__burger {
     background-color: #515e7ada;
@@ -329,7 +329,7 @@ a {
     position: absolute;
     z-index: 3;
     right: 20px;
-    top: 20px;
+    top: 0px;
     width: 70px;
     height: 70px;
   }
@@ -369,7 +369,21 @@ a {
     top: -20px;
   }
   .header__container.active {
-    top: 20px;
+    top: 0;
+    padding-top: 30px;
+    /* top: 90px; */
+    /* padding-top: 160px; */
+    /* padding-bottom: 150px; */
+    overflow: auto;
+  }
+  .header__list {
+    font-size: 20px;
+  }
+  .header__item {
+    margin-top: 10px;
+  }
+  .header__logo {
+    font-size: 30px;
   }
   .banner {
     bottom: -450px;
