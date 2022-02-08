@@ -369,7 +369,7 @@ a {
     top: -20px;
   }
   .header__container.active {
-    top: 0;
+    top: 20px;
   }
   .banner {
     bottom: -450px;
@@ -434,12 +434,14 @@ a {
   }
 }
 @media (max-width: 644px) {
+  .header__actions .btn {
+    display: flex;
+  }
   .hero__actions {
     display: flex;
     flex-direction: column;
   }
   .hero__btn_white {
-    width: 387px;
     margin-left: 0;
     margin-top: 10px;
   }
